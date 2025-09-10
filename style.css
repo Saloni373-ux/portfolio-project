@@ -12,7 +12,7 @@ nav{
   justify-content: space-around;
   align-items: center;
   height:85px;
-  background-color: rgb(5,5,83);
+  background-color: rgb(10, 10, 91);
 }
 nav ul{
   display:flex;
@@ -21,7 +21,17 @@ nav ul{
 nav ul li {
   list-style: none;
   margin:0 23px;
+  font-size: 20px;
+  
 
+}
+.right a{
+ text-decoration: none;
+ color:white;
+}
+.right ul a:hover{
+  color:rgb(75, 75, 170);
+  font-size: 1.75rem;
 }
 .left{
   font-size:2rem;
@@ -46,10 +56,13 @@ nav ul li {
   margin:50px,0;
 }
 .color{
-  color:rgb(129, 16, 234)
+  color:rgb(129, 16, 234);
+}
+#element{
+  color:rgb(129, 16, 234);
 }
 
-.right a{
+/* .right a{
   color:rgba(219, 219, 223, 0.895);
   text-decoration: none;
   font-size: 20px;
@@ -59,5 +72,5 @@ nav ul li {
 .right a:hover{
   color:#0ef;
 
-}
+} */
 
